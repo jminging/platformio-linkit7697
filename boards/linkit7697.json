@@ -1,0 +1,20 @@
+{
+  "build": {
+    "f_cpu": "192000000L",
+    "mcu": "MT7697",
+    "core": "ARM Cortex-M4"
+  },
+  "connectivity": [
+      "wifi",
+      "bluetooth"
+    ],
+    "frameworks": [
+      "arduino"
+    ],
+    "name": "Linkit 7697",
+    "url": "",
+    "vendor": "Seeed Studio/MediaTek",
+    "upload": {
+      "maximum_ram_size": 360448,
+      "maximum_size": 2019328}
+  }

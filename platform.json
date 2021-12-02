@@ -1,0 +1,30 @@
+ {
+  "name": "linkit7697",
+  "title": "LinkIt 7697",
+  "description": "LinkIt 7697 is a co-design product by Seeed Studio and MediaTek. As the latest member of the LinkIt family, it uses the MediaTek MT7697 SoC, a highly integrated single chip which features an application processor, a low power 1x1 11n single-band Wi-Fi subsystem, a Bluetooth subsystem, and a Power Management Unit.",
+  "url": "https://labs.mediatek.com/",
+  "engines": {
+    "platformio": "^5"
+  },
+  "version": "0.0.1",
+  "frameworks": {
+    "arduino": {
+      "package": "framework-arduinolinkit7697",
+      "script": "builder/frameworks/arduino.py"
+    }
+  },
+  "packages": {
+    "toolchain-gccarmnoneeabi": {
+      "type": "toolchain",
+      "version": "1.40804.0"
+    },
+    "framework-arduinolinkit7697": {
+      "type": "framework",
+      "version": "0.10.21"
+    },
+    "tool-mt76x7-uploader": {
+      "type": "uploader",
+      "version": "1.4"
+    }
+  }
+}
